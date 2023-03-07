@@ -1,6 +1,6 @@
 ------------------
 --neovim options--
-------------------
+-----------------
 vim.opt.number = true
 vim.opt.mouse = 'a'
 vim.opt.ignorecase = true
@@ -15,4 +15,9 @@ vim.opt.expandtab = false
 ----------------------
 --neovim keybindings--
 ----------------------
---vim.keymap.set('n', '<space>w', '<cmd>write<cr>', {desc = 'Save'})
+vim.g.mapleader = ','
+vim.keymap.set('n', '<space>w', '<cmd>write<cr>', {desc = 'Save'})
+vim.keymap.set({'n', 'x'}, 'cp', '"+y')
+vim.keymap.set({'n', 'x'}, 'cv', '"+p')
+
+
