@@ -11,13 +11,3 @@ vim.opt.breakindent = true
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = false
-
-----------------------
---neovim keybindings--
-----------------------
-vim.g.mapleader = ' '
-vim.keymap.set('n', '<space>w', '<cmd>write<cr>', {desc = 'Save'})
-vim.keymap.set({'n', 'x'}, 'cp', '"+y')
-vim.keymap.set({'n', 'x'}, 'cv', '"+p')
-
-
