@@ -2,4 +2,19 @@
 
 BASIC neovim configuration
 - prereq. neovim version 8 and newer
-- configured mapleader key = ','
+- configured mapleader key = '<space>'
+
+plugins:
+- nvim-lualine/lualine.nvim
+- nvim-treesitter/nvim-treesitter
+- nvim-tree/nvim-tree.lua
+- nvim-telescope/telescope.nvim
+
+Theme: folke/tokyonight.nvim
+
+Keybindings:
+- Save = <leader>w
+- NvimTreeToggle = <leader>tt
+- Telescope: find_files '<leader>ff'
+- Telescope: live_grep '<leader>fg'
+  
