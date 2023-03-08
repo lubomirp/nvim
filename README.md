@@ -7,6 +7,7 @@ BASIC neovim configuration
 - configured mapleader key = '\<space\>'
 
 plugins:
+- lazy.nvim
 - nvim-lualine/lualine.nvim
 - nvim-treesitter/nvim-treesitter
 - nvim-tree/nvim-tree.lua
