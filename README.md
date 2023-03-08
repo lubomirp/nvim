@@ -13,8 +13,8 @@ plugins:
 Theme: folke/tokyonight.nvim
 
 Keybindings:
-- Save = "\<leader\>w"
-- NvimTreeToggle = <leader>tt
-- Telescope: find_files '<leader>ff'
-- Telescope: live_grep '<leader>fg'
+- Save = '\<leader\>w'
+- NvimTreeToggle = '\<leader\>tt'
+- Telescope: find_files '\<leader\>ff'
+- Telescope: live_grep '\<leader\>fg'
   
