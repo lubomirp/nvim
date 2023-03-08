@@ -2,7 +2,7 @@
 
 BASIC neovim configuration
 - prereq. neovim version 8 and newer
-- configured mapleader key = '<space>'
+- configured mapleader key = '\<space\>'
 
 plugins:
 - nvim-lualine/lualine.nvim
