@@ -17,7 +17,8 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-  {'folke/tokyonight.nvim'},
+--  {'folke/tokyonight.nvim'},
+  {'ellisonleao/gruvbox.nvim'},
   {'ojroques/nvim-osc52'},
   {'nvim-lualine/lualine.nvim'},
   {'nvim-treesitter/nvim-treesitter'},
@@ -26,7 +27,7 @@ require("lazy").setup({
 })
 
 vim.opt.termguicolors = true
-vim.cmd.colorscheme('tokyonight')
+vim.cmd.colorscheme('gruvbox')
 require('lualine').setup({
   options = {
     icons_enabled = true,
