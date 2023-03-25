@@ -17,7 +17,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
---  {'folke/tokyonight.nvim'},
   {'ellisonleao/gruvbox.nvim'},
   {'ojroques/nvim-osc52'},
   {'nvim-lualine/lualine.nvim'},
