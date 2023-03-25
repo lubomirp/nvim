@@ -1,3 +1,5 @@
+Minimalistic neovim configuration
+
 <img width="1552" alt="Screenshot 2023-03-25 at 08 59 24" src="https://user-images.githubusercontent.com/96984461/227705260-1701a111-af93-468b-ac2f-7660d661ce01.png">
 
 
