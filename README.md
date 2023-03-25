@@ -1,5 +1,3 @@
-![image](https://user-images.githubusercontent.com/96984461/223740938-580ee5fc-940c-45aa-9b03-a4c9872109af.png)
-
 # nvim
 clone to your ~/.config/nvim/
 
@@ -15,7 +13,7 @@ plugins:
 - nvim-tree/nvim-tree.lua
 - nvim-telescope/telescope.nvim
 
-Theme: folke/tokyonight.nvim
+Theme: fellisonleao/gruvbox.nvim
 
 Keybindings:
 - Save = '\<leader\>w'
