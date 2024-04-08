@@ -22,7 +22,7 @@ require("lazy").setup({
   {'nvim-lualine/lualine.nvim'},
   {'nvim-treesitter/nvim-treesitter'},
   {'nvim-tree/nvim-tree.lua'};
-  {'nvim-telescope/telescope.nvim', tag = '0.1.1',dependencies = { 'nvim-lua/plenary.nvim' }}
+  {'nvim-telescope/telescope.nvim', tag = '0.1.6',dependencies = { 'nvim-lua/plenary.nvim' }}
 })
 
 vim.opt.termguicolors = true
